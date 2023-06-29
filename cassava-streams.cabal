@@ -11,7 +11,7 @@ category:           Data, Text, CSV, IO-Streams
 build-type:         Simple
 homepage:           https://github.com/pjones/cassava-streams
 bug-reports:        https://github.com/pjones/cassava-streams/issues
-tested-with:        GHC ==8.6.5 || ==8.8.4 || ==8.10.2
+tested-with:        GHC ==8.6.5 || ==8.8.4 || ==8.10.2 || ==9.4.5
 description:
   The cassava-streams library glues togeter the cassava CSV library
   and the io-streams streaming library.
@@ -42,7 +42,7 @@ common dependencies
     , bytestring  >=0.10 && <0.12
     , cassava     >=0.4  && <0.6
     , io-streams  >=1.1  && <1.6
-    , vector      >=0.10 && <0.13
+    , vector      >=0.10 && <0.14
 
 --------------------------------------------------------------------------------
 library
